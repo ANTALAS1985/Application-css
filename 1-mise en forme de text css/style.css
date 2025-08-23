@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: antiquewhite;
+}
+.article{
+    margin:5px;
+    padding: 5px;
+    border: 2px solid grey;
+}
+h1{
+    text-indent: 20px;
+    font-size: 30px;;
+}
+.h2{
+    text-indent: 40px;
+    font-size: 25px;;
+}
+.p{
+    text-indent: 60px; /* décale uniquement la première ligne de 30px */
+    font-size: 18px;
+}
