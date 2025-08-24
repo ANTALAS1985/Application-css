@@ -12,15 +12,26 @@ body{
     padding: 5px;
     border: 2px solid grey;
 }
-h1{
+.h1{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-indent: 20px;
-    font-size: 30px;;
+    font-variant: small-caps;
+    font-weight: 300;    
+    font-size: 30px;
+    font-style: normal;
 }
 .h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
     text-indent: 40px;
-    font-size: 25px;;
+    font-weight: 200;   
+    font-size: 25px;
+    font-style: normal;
 }
 .p{
     text-indent: 60px; /* décale uniquement la première ligne de 30px */
     font-size: 18px;
+    font-style: italic;
+    line-height: 30px;
 }
