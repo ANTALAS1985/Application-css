@@ -5,33 +5,55 @@
 }
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: antiquewhite;
+    background-color:aqua;
 }
 .article{
     margin:5px;
     padding: 5px;
     border: 2px solid grey;
+    border-radius: 10px;
 }
 .h1{
     
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-indent: 20px;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 1px;
+    text-shadow: 2px 2px 3px blue;
     font-variant: small-caps;
     font-weight: 300;    
     font-size: 30px;
     font-style: normal;
+    color: blueviolet;
 }
 .h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-variant: small-caps;
     text-indent: 40px;
+    text-decoration: underline;
+    text-decoration-color:blue;
+    text-decoration-thickness: 1px;
+    text-decoration-style:dotted;
+    text-shadow: 2px 2px 4px blue;
     font-weight: 200;   
     font-size: 25px;
     font-style: normal;
+    color: blueviolet;
+    
 }
 .p{
     text-indent: 60px; /* décale uniquement la première ligne de 30px */
     font-size: 18px;
     font-style: italic;
     line-height: 30px;
+    text-align:justify;
+}
+.important{
+    color: red;
+    font-weight: bold;
+    text-decoration:underline;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+    text-transform: uppercase;
 }
